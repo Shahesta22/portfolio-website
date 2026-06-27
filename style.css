@@ -666,21 +666,77 @@ body{
 
 @media(max-width:768px){
 
+    .nav{
+        height:60px;
+        padding:0 20px;
+    }
+
+    .nav_right{
+        gap:15px;
+        font-size:0.8rem;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:90px 25px 40px;
+    }
+
+    .hero_left,
+    .hero_right{
+        width:100%;
+    }
+
+    #role{
+        font-size:2rem;
+    }
+
+    #description{
+        font-size:1rem;
+    }
+
+    #profile{
+        width:230px;
+        height:230px;
+        margin-top:30px;
+    }
+
+    .btn_container{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .about,
+    .skills,
+    .projects,
     .contact{
         padding:80px 25px;
     }
 
+    .about_container,
     .contact-container{
         flex-direction:column;
-        gap:40px;
+        gap:35px;
     }
 
+    .about_left,
+    .info-card,
     .contact-left,
     .contact-card{
         width:100%;
     }
 
-    .contact-left h3{
-        font-size:1.7rem;
+    .skills-container,
+    .project-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-btns{
+        flex-wrap:wrap;
+    }
+
+    .section-title{
+        font-size:2.3rem;
+        margin-bottom:40px;
     }
 }
