@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const roles = [
-        "Frontend Developer",
-        "Java Full Stack Learner",
-        "AI Enthusiast"
-    ];
+ const roles = [
+   
+    "Frontend Developer",
+     "Software Engineer",
+    "AI Enthusiast"
+];
 
     const roleElement = document.getElementById("role");
 
